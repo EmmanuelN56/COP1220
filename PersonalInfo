@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+    // Test 1
+    printf("John Smith\n8/15/1978\nwork 000-111-0101\ncell 000-111-0189\n");
+    // Test 2
+    printf("\nChris Johnson\n12/01/1987\nwork 000-222-0101\ncell 000-222-0189\n");
+    // Test 3
+    printf("\nRobert Hall\n2/27/1949\nwork 000-444-0101\ncell 000-444-0189\n");
+    // Test 4
+    printf("\nLucinda Potter\n6/24/1992\nwork 000-000-0101\ncell 000-000-0189");
+    return 0;
+}
