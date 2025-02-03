@@ -14,7 +14,7 @@ while(1)
     printf("Enter the inital of the salesperson: ");
     scanf(" %c", &person);
 
-    if(person == 'z')
+    if(person == 'z' || person == 'Z')
     {
         break;
     }
