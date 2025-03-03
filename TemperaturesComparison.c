@@ -36,11 +36,15 @@ else
 }
 
 // Output each of the temperatures inside of our array.
-printf("5-day Temperatures: [");
+printf("5-day Temperatures: [ ");
 for (int i = 0; i < 5; i++) 
 {
     printf("%d ", temperature[i]);
 }
-printf("]");
+printf("]\n");
+
+// Calculate the average and output to the user.
+average = (temperature[0] + temperature[1] + temperature[2] + temperature[3] + temperature[4]) / 5.0;
+printf("OUTPUT Average Temperature is %.1f degrees", average);
 
 }
