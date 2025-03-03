@@ -4,6 +4,7 @@ int main(void) {
 // Create an array to hold each temperature that will be given by the user
 int temperature[5] = {0, 0, 0, 0, 0};
 int currentTemp = 0;
+float average = 0;
 
 // Use a for loop to assign a value to the spot on the array that matches the iteration count.
 for(int i = 0; i < 5; i++)
